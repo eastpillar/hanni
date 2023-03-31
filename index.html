@@ -4,28 +4,59 @@
 <title>hanni Fan Page</title>
 <meta charset="utf-8">
 <style>
+  body{
+    margin:0;
+  }
   a{
-    color:pink;
+    color:rgb(170, 35, 182);
     text-decoration:none;
   }
-  li{
+  ul{
     font-size:20px;
+    border-right:5px black solid;
+    width:130px;
+    margin:0;
+    padding:20px;
+    padding-left:40px;
   }
+  h1{
+    border-bottom:4px black solid;
+    padding:10px;
+    margin:0;
+  }
+#parent{
+  display:grid;
+  grid-template-columns: 220px 300px 435px;
+}
+#son{
+  padding-top:20px;
+  border:3px solid rgb(170, 35, 182);
+  padding:5px;
+  margin:10px;
+}
+h2{
+  padding-left:40px;
+}
 </style>
 </head>
 <body>
-<h1><a href="index.html" style="color:blue">WELCOME HANNI LAND</a></h1>
-<ui>
+<h1><a href="index.html" style="color:rgb(170, 35, 182)">WELCOME HANNI LAND</a></h1>
+<div id="parent">
+<ul>
   <li><a href="hanniOMG.html">OMG</a></li>
   <li><a href="hanniDitto.html">Ditto</a></li>
   <li><a href="hanniAttention.html">Attention</a></li>
   <li><a href="hanniHypeBoy.html">Hype Boy</a></li>
   <li><a href="hanniCookie.html">Cookie</a></li>
   <li><a href="hanniHurt.html">Hurt</a></li>
-</ui>
-<h2 style="color:red">Hanni land</h2>
-<p>
-<img src="hanni1.jpg" width="400">
-</p>
+</ul>
+  <div>
+  <h2 style="color:rgb(170, 35, 182)">Hanni land</h2>
+  </div>
+
+    <div id="son">
+    <img src="hanni1.jpg" width="400">
+    </div>
+</div>
 </body>
 </html>
