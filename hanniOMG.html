@@ -3,43 +3,9 @@
 <head>
 <title>hanni Fan Page</title>
 <meta charset="utf-8">
-<style>
-  body{
-    margin:0;
-  }
-  a{
-    color:rgb(170, 35, 182);
-    text-decoration:none;
-  }
-  ul{
-    font-size:29px;
-    border-right:5px black solid;
-    width:130px;
-    margin:0;
-    padding:20px;
-    padding-left:40px;
-  }
-  h1{
-    font-size:40px;
-    border-bottom:4px black solid;
-    padding:10px;
-    margin:0;
-  }
-#parent{
-  display:grid;
-  grid-template-columns: 220px 300px 435px;
-}
-#son{
-  padding-top:20px;
-  border:3px solid rgb(170, 35, 182);
-  padding:5px;
-  margin:10px;
-}
-h2{
-  padding-left:40px;
-  font-size:30px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
+<script src="bodyColor.js"></script>
+
 </head>
 <body>
 <h1><a href="index.html">WELCOME HANNI LAND</a></h1>
@@ -54,6 +20,12 @@ h2{
 </ul>
   <div>
   <h2 style="color:red">Hanni OMG</h2>
+  <input id="musicButton" type="button" value="youtube music" onclick="
+  youtubeMusicUrl('https://youtu.be/60RaggLgggE')
+"><br>
+  <input id="nightDay" type="button" value="night" onclick="
+  bodyBackgroundColor(this);
+  ">
   </div>
     <div id="son">
     <img src="hanni7.jpg" width="400">

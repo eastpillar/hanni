@@ -1,0 +1,43 @@
+body{
+    margin:0;
+  }
+  a{
+    color:rgb(170, 35, 182);
+    text-decoration:none;
+    text-shadow: #FC0 1px 0 10px;
+  }
+  ul{
+    font-size:29px;
+    border-right:5px black solid;
+    width:130px;
+    margin:0;
+    padding:20px;
+    padding-left:40px;
+  }
+  h1{
+    font-size:40px;
+    border-bottom:4px black solid;
+    padding:10px;
+    margin:0;
+  }
+#parent{
+  display:grid;
+  grid-template-columns: 220px 300px 435px;
+}
+#son{
+    width:400px;
+  padding-top:20px;
+  border:3px solid rgb(170, 35, 182);
+  padding:5px;
+  margin:10px;
+  display:block;
+}
+h2{
+  padding-left:40px;
+  font-size:30px;
+}
+@media(max-width:970px){
+    #parent{
+        display:block;
+    }
+}
